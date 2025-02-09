@@ -1,27 +1,24 @@
-## AirBnB_Listings_Analysis_Python
+### AirBnB_Listings_Analysis_Python
 
-#### Airbnb data for 250,000+ listings in 10 major cities, including information about hosts, pricing, location, and room type, along with over 5 million historical reviews.
-the dataset was downloaded from the free Data Playground of MavenAnalytics. [MavenAnalytics](https://mavenanalytics.io/data-playground?search=ai)
+Situation: 
 
-### Objective 1 : Profile and explore the data
-#### Import/open the listing.csv
-#### Cast any date columns as datetime format
-#### Filtering the data down to rows where the city is Paris, and keep only the columns 'host_since', 'neighbourhood','city','accommodates', and 'price' in the table
-#### checking for missing values, and calculate the minimum,maximum, and average for each numeric field.
+The project analyzes Airbnb data for over 250,000 listings in 10 major cities, including information about hosts, pricing, location, and room type, along with over 5 million historical reviews. The data was sourced from [MavenAnalytics](https://mavenanalytics.io/data-playground?search=ai).
 
+Task: The main tasks were to:
 
-### Objective 2 : Prepare for visualization
-#### Creating a table named paris_listings_neighbourhood,that groups Paris listing by 'neighbourhood' and calculates the mean price for each neighborhood sorted from lowest to highest average price.
+Profile and explore the dataset.
+Prepare the data for visualization.
+Visualize the data to derive insights.
 
-#### Then, creating a table named paris_listings_accomodations, neighborhood in Paris, grouped by the 'accommodations' column, and contain the mean price for each value of 'accommodates' sorted from lowest to highest average price.
+Action: The following actions were taken:
 
-#### Finally, creating a table called paris_listings_over_time, which is grouped by the year of the 'host_since' column. Calculate a count of rows, representing total number of new hosts, and the average price for each year.
+Imported and cleaned the dataset, focusing on Paris listings.
+Analyzed missing values and calculated basic statistics.
+Grouped and aggregated data by neighborhood and accommodations.
+Created tables for visual analysis of new hosts and pricing trends over time.
+Generated visualizations, including bar charts and line charts, to illustrate trends and insights.
 
-### Objective 3:Data Visualization
-#### Create a horizontal bar chart of the average price by neighborhood in Paris.
+Result: The analysis provided detailed insights into Airbnb listings in Paris, including:
 
-#### Create a horizontal bar chart of the average price by 'accommodates' in Paris most expensive neighborhood.
-
-#### Create two line charts : one of the count of new hosts over time, and one for average price.
-
-#### Based on your findings, what insights do you have about the impact of the 2015 regulations on new hosts and prices?
+Average prices by neighborhood and accommodations.
+Trend of new hosts over time and the impact of regulations on pricing.
