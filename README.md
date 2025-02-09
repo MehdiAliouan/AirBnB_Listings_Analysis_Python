@@ -18,7 +18,9 @@ Grouped and aggregated data by neighborhood and accommodations.
 Created tables for visual analysis of new hosts and pricing trends over time.
 Generated visualizations, including bar charts and line charts, to illustrate trends and insights.
 
-Result: The analysis provided detailed insights into Airbnb listings in Paris, including:
+Result: 
+
+The analysis provided detailed insights into Airbnb listings in Paris, including:
 
 Average prices by neighborhood and accommodations.
 Trend of new hosts over time and the impact of regulations on pricing.
