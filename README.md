@@ -1,7 +1,7 @@
 ## AirBnB_Listings_Analysis_Python
 
 #### Airbnb data for 250,000+ listings in 10 major cities, including information about hosts, pricing, location, and room type, along with over 5 million historical reviews.
-the dataset was downloaded from the free Data Playground of MavenAnalytics. [https://mavenanalytics.io/data-playground?search=ai]
+the dataset was downloaded from the free Data Playground of MavenAnalytics. [MavenAnalytics](https://mavenanalytics.io/data-playground?search=ai)
 
 ### Objective 1 : Profile and explore the data
 #### Import/open the listing.csv
